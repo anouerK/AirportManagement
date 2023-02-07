@@ -12,10 +12,11 @@ Staff staff = new Staff();
 staff.PassengerType();
 Traveller traveller = new Traveller();
 traveller.PassengerType();
-Console.WriteLine("********** TP2  **********");
+Console.WriteLine("\n********** TP2  **********");
 ServiceFlight serviceFlight = new ServiceFlight();
 //Console.WriteLine(serviceFlight.GetFlightDates("Paris"));
-foreach (DateTime flight in serviceFlight.GetFlightDates("Paris"))
-{
-   Console.WriteLine(flight);
-}
+//foreach (DateTime flight in serviceFlight.GetFlightDates("Paris"))
+//{
+//   Console.WriteLine(flight);
+//}
+serviceFlight.GetFlights("Destination", "Paris");
