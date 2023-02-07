@@ -27,10 +27,10 @@ namespace AirportManagement.Domain
         {
 
         }
-        public Plane(int capacite, DateTime manuFactureDate, PlaneTypeEnum planeType)
+        public Plane(int capacite, DateTime ManuFactureDate, PlaneTypeEnum planeType)
         {
             Capacite = capacite;
-            ManuFactureDate = manuFactureDate;
+            ManuFactureDate = ManuFactureDate;
             PlaneType = planeType;
         }
     }

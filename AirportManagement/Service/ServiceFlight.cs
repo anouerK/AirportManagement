@@ -1,12 +1,17 @@
-﻿using System;
+﻿using AirportManagement.Domain;
+using AirportManagement.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace AirportManagement.Service
 {
-    internal class ServiceFlight
+    public class ServiceFlight : IServiceFlight
     {
+        public List<Flight> Flights { get; set; } = new List<Flight>();
     }
 }
