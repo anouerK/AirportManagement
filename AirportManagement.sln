@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportManagement", "AirportManagement\AirportManagement.csproj", "{B19F7F89-32E5-45EA-A2C3-775CCF05A1E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleManagement", "ConsoleManagement\ConsoleManagement.csproj", "{D001EBED-1CDB-4143-AB84-C5BCF7839F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B19F7F89-32E5-45EA-A2C3-775CCF05A1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19F7F89-32E5-45EA-A2C3-775CCF05A1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19F7F89-32E5-45EA-A2C3-775CCF05A1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19F7F89-32E5-45EA-A2C3-775CCF05A1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D001EBED-1CDB-4143-AB84-C5BCF7839F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D001EBED-1CDB-4143-AB84-C5BCF7839F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D001EBED-1CDB-4143-AB84-C5BCF7839F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D001EBED-1CDB-4143-AB84-C5BCF7839F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75400539-B124-4D63-AE68-1465C9E9772F}
+	EndGlobalSection
+EndGlobal
