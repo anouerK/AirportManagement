@@ -9,7 +9,7 @@ namespace AirportManagement.Domain
     public class Passenger
     {
         public string FirstName { get; set; }
-        public string lastName { get; set; }
+        public string LastName { get; set; }
         public int TelNumber { get; set; }
 
         public int PassportNumber { get; set; }
@@ -19,17 +19,17 @@ namespace AirportManagement.Domain
         public ICollection<Flight> Flights { get; set; }
        /* bool CheckProfile(String nom,String prenom)
         {
-            return (FirstName == prenom && lastName == nom);
+            return (FirstName == prenom && LastName == nom);
 
         }
         bool CheckProfile(String nom, String prenom,String email)
         {
-            return (FirstName == prenom && lastName == nom && EmailAdresse == email);
+            return (FirstName == prenom && LastName == nom && EmailAdresse == email);
 
         }*/
         bool CheckProfile(String nom, String prenom, String? email)
         {
-            return (FirstName == prenom && lastName == nom && EmailAdresse == email);
+            return (FirstName == prenom && LastName == nom && EmailAdresse == email);
 
         }
         public virtual void  PassengerType()

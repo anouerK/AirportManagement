@@ -9,7 +9,8 @@ namespace AirportManagement.Interface
 {
     public interface IServiceFlight
     {
-       
-       
+        public List<DateTime> GetFlightDates(string destination);
+
+
     }
 }

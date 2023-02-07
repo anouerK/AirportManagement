@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleManagement/1.0.0": {
+        "dependencies": {
+          "AirportManagement": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleManagement.dll": {}
+        }
+      },
+      "AirportManagement/1.0.0": {
+        "runtime": {
+          "AirportManagement.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AirportManagement/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

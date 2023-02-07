@@ -14,23 +14,23 @@ namespace AirportManagement.Domain
     public class Plane
     {
         public int PlaneId { get; set; }
-        public int Capacite { get; set; }
+        public int Capacity { get; set; }
         public DateTime ManuFactureDate { get; set; }
 
         public PlaneTypeEnum PlaneType { get; set; }
         public ICollection<Flight> Flights { get; set; }
         public override string ToString()
         {
-            return $"Plane {{ {Capacite} {PlaneType} {ManuFactureDate} }}";
+            return $"Plane {{ {Capacity} {PlaneType} {ManuFactureDate} }}";
         }
         public Plane()
         {
 
         }
-        public Plane(int capacite, DateTime ManuFactureDate, PlaneTypeEnum planeType)
+        public Plane(int capacite, DateTime manuFactureDate, PlaneTypeEnum planeType)
         {
-            Capacite = capacite;
-            ManuFactureDate = ManuFactureDate;
+            Capacity = capacite;
+            ManuFactureDate = manuFactureDate;
             PlaneType = planeType;
         }
     }

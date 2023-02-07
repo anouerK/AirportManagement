@@ -13,7 +13,8 @@ namespace AirportManagement.Domain
         public string Nationalite { get; set; }
         public override void PassengerType()
         {
-            Console.WriteLine(" I am Traveller");
+            base.PassengerType();
+            Console.Write(" I am Traveller");
         }
     }
 }

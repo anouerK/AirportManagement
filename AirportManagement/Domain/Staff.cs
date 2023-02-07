@@ -15,7 +15,8 @@ namespace AirportManagement.Domain
         public float Salary { get; set; }
         public override void PassengerType()
         {
-            Console.WriteLine(" I am Staff");
+            base.PassengerType();
+            Console.Write(" I am Staff");
         }
     }
 }

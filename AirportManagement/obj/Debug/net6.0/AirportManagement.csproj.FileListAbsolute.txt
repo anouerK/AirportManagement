@@ -1,0 +1,12 @@
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\bin\Debug\net6.0\AirportManagement.deps.json
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\bin\Debug\net6.0\AirportManagement.dll
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\bin\Debug\net6.0\AirportManagement.pdb
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\obj\Debug\net6.0\AirportManagement.csproj.AssemblyReference.cache
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\obj\Debug\net6.0\AirportManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\obj\Debug\net6.0\AirportManagement.AssemblyInfoInputs.cache
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\obj\Debug\net6.0\AirportManagement.AssemblyInfo.cs
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\obj\Debug\net6.0\AirportManagement.csproj.CoreCompileInputs.cache
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\obj\Debug\net6.0\AirportManagement.dll
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\obj\Debug\net6.0\refint\AirportManagement.dll
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\obj\Debug\net6.0\AirportManagement.pdb
+C:\Users\ksaay\source\repos\AirportManagement\AirportManagement\obj\Debug\net6.0\ref\AirportManagement.dll
