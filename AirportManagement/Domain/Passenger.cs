@@ -32,6 +32,10 @@ namespace AirportManagement.Domain
             return (FirstName == prenom && lastName == nom && EmailAdresse == email);
 
         }
+        public virtual void  PassengerType()
+        {
+            Console.WriteLine(" I am Passenger");
+        }
 
     }
 }

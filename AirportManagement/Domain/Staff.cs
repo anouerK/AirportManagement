@@ -13,6 +13,10 @@ namespace AirportManagement.Domain
         public string Function { get; set; }
 
         public float Salary { get; set; }
+        public override void PassengerType()
+        {
+            Console.WriteLine(" I am Staff");
+        }
     }
 }
 

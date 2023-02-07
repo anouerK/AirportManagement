@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace AirportManagement.Domain
 {
-    public class Traveller
+    public class Traveller : Passenger
     {
         public string HealthInformation { get; set; }
 
         public string Nationalite { get; set; }
+        public override void PassengerType()
+        {
+            Console.WriteLine(" I am Traveller");
+        }
     }
 }
